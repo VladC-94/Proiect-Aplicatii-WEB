@@ -1,0 +1,6 @@
+ul:is(#reviews) {
+  list-style: "🎉";
+}
+ul:not(#reviews) {
+  list-style: "✅";
+}

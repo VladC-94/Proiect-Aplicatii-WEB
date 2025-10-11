@@ -1,0 +1,62 @@
+html {
+  height: 5000px;
+}
+body {
+  margin: 0;
+  position: relative;
+}
+table, table th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+table td:nth-child(even) {
+  padding: 15px;
+  border: 3px solid #438447;
+}
+table td:nth-child(odd) {
+  padding: 5px;
+  border: 3px solid #872234;
+}
+table img {
+  transition: 0.5s;
+}
+table img:hover {
+  animation: rotire-imagine 1s linear 0s 1;
+}
+.scroll-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 1;
+  font-size: 30px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  line-height: 50px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+}
+@keyframes rotire-imagine {
+  0% {
+    rotate: 0deg;
+    scale: 100%;
+  } 
+  25% {
+    rotate: 90deg;
+    scale: 110%;
+  } 
+  50% {
+    rotate: 180deg;
+    scale: 50%;
+  } 
+  75% {
+    rotate: 270deg;
+    scale: 170%;
+  } 
+  100% {
+    rotate: 360deg;
+    scale: 100%;
+  } 
+}
