@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  position: relative;
+  background-color: aliceblue;
+}
+.scroll-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 1;
+  font-size: 30px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  line-height: 50px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+}
+.review__heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Comic Sans MS";
+  color: #333333;
+}
+.review__content {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272424;
+}
+.review__content:nth-child(1):hover {
+  color: red; 
+}
+.review__content:nth-child(2):hover {
+  color: blue; 
+}
+.review__content:nth-child(3):hover {
+  color: yellow; 
+}
+.review__content:nth-child(4):hover {
+  color: magenta; 
+  text-decoration: underline;
+}
+.review__content:nth-child(5):hover {
+  color: crimson; 
+}
+.review__content:nth-child(6):hover {
+  color: teal; 
+  text-decoration: line-through;
+}

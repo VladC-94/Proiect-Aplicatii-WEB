@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payday 2</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/pagini.css">
+    <style>
+      .aliniere__heading {
+        font-size: 30px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+
+    <font face="Arial, Roboto, Times New Roman">
+      <a href="../index.html">
+        <p align="left">
+          <font size="20">&lt; Inapoi la Homepage</font>
+        </p>
+      </a>
+
+      <div>
+        <div class="aliniere__heading">Alinierea pozelor diferit. Default</div>
+        <table>
+          <tr>
+            <td>
+              <img src="../assets/images/screenshots/payday-2-1.jpg" align="right">
+              <span>Text Stanga</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../assets/images/screenshots/payday-2-1.jpg" align="left">
+              <span>Text Dreapta</span>
+            </td>
+          </tr>
+        </table>
+        <div class="aliniere__heading">Alinierea pozelor diferit. Flexbox</div>
+        <div class="aliniere__wrapper" style="display: flex; align-items: center; gap: 10px; margin-block: 20px;">
+          <img src="../assets/images/screenshots/payday-2-1.jpg">
+          <span>Text Dreapta</span>
+        </div>
+        <div class="aliniere__wrapper" style="display: flex; align-items: center; gap: 10px; margin-block: 20px;">
+          <span>Text Stanga</span>
+          <img src="../assets/images/screenshots/payday-2-1.jpg">
+        </div>
+        <div class="aliniere__wrapper" style="display: flex; align-items: center; gap: 10px; margin-block: 20px;">
+          <span>Text Stanga</span>
+          <img src="../assets/images/screenshots/payday-2-1.jpg">
+          <span>Text Dreapta</span>
+        </div>
+        <div class="aliniere__wrapper" style="display: flex; align-items: center; gap: 10px; margin-block: 20px; flex-direction: row-reverse; justify-content: start; ">
+          <span>Text Stanga, dar invers</span>
+          <img src="../assets/images/noice-nice.gif">
+          <span>Text Dreapta, dar invers</span>
+        </div>
+      </div>
+  
+      <div id="scroll-top" class="scroll-top">
+        <span>^</span>
+      </div>
+    </font>
+
+    <script src="../assets/js/index.js"></script>
+  </body>
+</html>
